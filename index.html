@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bob M W Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header class="bg-dark py-4">
+    <div class="container">
+      <h1 class="text-light">Bob M W Page</h1>
+      <nav>
+        <ul class="list-inline text-light">
+          <li class="list-inline-item"><a href="#">Início</a></li>
+          <li class="list-inline-item"><a href="#">Sobre</a></li>
+          <li class="list-inline-item"><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="my-5">
+    <section class="container mt-5">
+      <h2>Seção 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non hendrerit odio. Mauris tempor, ipsum eu varius rhoncus, lectus nunc varius mi, in sagittis ipsum diam nec justo.</p>
+    </section>
+
+    <section class="container mt-5">
+      <h2>Seção 2</h2>
+      <p>Nulla facilisi. Sed id tincidunt leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus euismod, metus ut tempor vestibulum, mauris ex tincidunt mi, ut commodo neque mauris id ipsum.</p>
+    </section>
+
+    <section class="container mt-5">
+      <h2>Seção 3</h2>
+      <p>Aliquam erat volutpat. Curabitur et posuere risus. Duis consequat, magna ut ultrices commodo, urna urna vehicula libero, eu vehicula nisi lectus nec nunc.</p>
+    </section>
+  </div>
+
+  <footer class="container text-center">
+      &copy; <span id="year"></span> Bob M Wendell
+  </footer>
+
+  <script>
+    document.getElementById("year").innerText = new Date().getFullYear() || "2024";
+  </script>
+</body>
+</html>
